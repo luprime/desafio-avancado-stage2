@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+
+    /*colocar co no fundo da pagina*/
+    background: #2C2B3D;
+
+    /*tamanho minimo da pagina, para quebrar caso fique menor (celulares ou tablets)*/
+    min-height: 100vh;
+}
+
+.page {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+/*no header distanciar o titulo da pagina do resto dos botoes*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 55px;
+
+    /*font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;*/
+
+}
+
+ul{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+/*tirar o sublinhado do cabecalho e colocar a cor branca neles*/
+a {
+
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+ul li a:hover{
+    font-weight: bold;
+}
+
+h1, ul{
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
